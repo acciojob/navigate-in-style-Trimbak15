@@ -1,20 +1,13 @@
-/*  your css code here. If applicable */
-.nav-bar {
-  background-color: #D3D3D3;
-  padding: 10px;
+.container {
+    background-color: #D3D3D3;
 }
 
-.nav-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.list-item {
+    display: flex;
 }
 
-.nav-list li {
-  display: inline;
-  margin-right: 1rem;
-}
-
-.nav-list li:last-child {
-  margin-right: 0;
+.list-item li {
+    list-style: none;
+    margin-right: 1rem;
+    padding: 10px;
 }
